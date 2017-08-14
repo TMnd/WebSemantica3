@@ -1,0 +1,40 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+
+<form action="{% url 'information' %}" method="post">
+    {% csrf_token %}               
+    <select name="chooseTeam" id="chooseTeam">
+        <option value="Porto">F.C. Porto</option>
+        <option value="Maritimo">C.S. Maritimo</option>
+        <option value="Pacos Ferreira">Pacos Ferreira</option>
+        <option value="Sp Lisbon">Sporting Clube de Portugal</option>
+        <option value="Guimaraes">Vitoria S.C.</option>
+        <option value="Belenenses">C.F. Os Belenenses</option>
+        <option value="Boavista">Boavista F.C.</option>
+        <option value="Estoril">G.D. Estoril Praia</option>
+        <option value="Setubal">Vitoria F.C.</option>
+        <option value="Moreirense">Moreirense F.C.</option>
+        <option value="Academica">Academica</option>
+        <option value="Gil Vicente">Gil Vicente</option>
+        <option value="Benfica">S.L. Benfica</option>
+        <option value="Nacional">C.D. Nacional</option>
+        <option value="Penafiel">F.C. Penafiel</option>
+        <option value="Rio Ave">Rio Ave F.C.</option>
+        <option value="Sp Braga">S.C. Braga</option>
+        <option value="Arouca">F.C. Arouca</option>
+    </select>
+    <input type="submit" name ="convert" value="Submit" id="gameButton">
+</form>
+<br />
+<p><b>Aliases: </b>{{Aliases}}</p>
+<p><b>Labels: </b>{{Labels}}</p>
+<p><b>Description: </b>{{Description}}</p>
+<p><b>Year of creation: </b>{{year}}</p>
+<p><b>Stadium name: </b>{{stadium}}</p>
+<p><b>Headquarters location: </b>{{headquarters}}</p>
+<p><b>WebSite: </b><a href="{{WebSite}}">{{WebSite}}</a></p>
+
+{% endblock %}

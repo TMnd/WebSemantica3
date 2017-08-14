@@ -1,0 +1,8 @@
+PY2
+os
+absolute_import
+unicode_literals
+RotatingFileHandler
+LoggingFormatter
+logging
+__version__

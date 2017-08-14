@@ -1,0 +1,12 @@
+open_archive
+XmlEntry
+XmlDump
+absolute_import
+threading
+parseRestrictions
+iterparse
+xml
+XmlParserThread
+unicode_literals
+re
+__version__

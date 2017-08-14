@@ -1,0 +1,11 @@
+HttpRequest
+urlparse
+absolute_import
+unicode_literals
+_logger
+codecs
+pywikibot
+__docformat__
+UnicodeMixin
+sys
+__version__

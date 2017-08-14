@@ -1,0 +1,10 @@
+IRCBot
+SingleServerIRCBot
+e
+absolute_import
+unicode_literals
+re
+_logger
+pywikibot
+ircbot_import_error
+__version__

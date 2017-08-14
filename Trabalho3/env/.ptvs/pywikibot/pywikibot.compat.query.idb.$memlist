@@ -1,0 +1,8 @@
+api
+absolute_import
+unicode_literals
+deprecated
+pywikibot
+deprecate_arg
+GetData
+io

@@ -1,0 +1,9 @@
+translate
+absolute_import
+unicode_literals
+date
+pywikibot
+deprecated_args
+config
+re
+__version__

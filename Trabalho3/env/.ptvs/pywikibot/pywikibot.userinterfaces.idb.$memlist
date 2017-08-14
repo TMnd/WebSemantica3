@@ -1,0 +1,8 @@
+terminal_interface
+terminal_interface_unix
+transliteration
+terminal_interface_base
+terminal_interface_win32
+gui
+cgi_interface
+win32_unicode

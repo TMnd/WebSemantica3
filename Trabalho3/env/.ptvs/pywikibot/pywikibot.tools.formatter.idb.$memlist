@@ -1,0 +1,13 @@
+PY2
+math
+SequenceOutputter
+absolute_import
+unicode_literals
+color_format
+output
+colors
+Formatter
+UnicodeType
+inspect
+_ColorFormatter
+__version__
